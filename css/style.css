@@ -24,6 +24,16 @@ body {
     color: var(--color1);
 }
 
+.my-text-hover {
+    font-size: 0.8rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.my-text-hover:hover {
+    color: #3374a8;
+}
+
 .my-border-bottom-primary {
     border-bottom: 10px solid var(--color1);
 }
@@ -352,13 +362,12 @@ body {
   }
   
   .copyright {
-      font-size: 14px;
+      font-size: 0.8rem;
       color: #ccc;
-      padding-top: 15px;
       text-align: center;
-      padding-bottom: 15px;
       background: var(--color1);
   }
+
   footer .second_class{
       padding-bottom: 25px;
   }
@@ -434,7 +443,3 @@ body {
       footer .round-btn {
       margin: 15px 4px;}
   }
-  @media(max-width:320px){
-  .copyright {
-      font-size: 13px;}
-  } 

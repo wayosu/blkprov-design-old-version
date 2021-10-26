@@ -80,9 +80,28 @@
                             </div>
                             <div class="my-width-col2">
                                 <div class="my-marquee-text">
-                                    <marquee scrollamount="10">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Quia,
-                                        explicabo?</marquee>
+                                    <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="10">
+                                            <label class="me-5">
+                                                <a href="#" class="my-text-hover">
+                                                    1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, explicabo?
+                                                </a>
+                                            </label> 
+                                            <label class="me-5">
+                                                <a href="#" class="my-text-hover">                                                
+                                                    2. Lorem ipsum dolor
+                                                </a>
+                                            </label> 
+                                            <label class="me-5">
+                                                <a href="#" class="my-text-hover">
+                                                    3. Lorem ipsum dolor, sit amet Quia, explicabo?
+                                                </a>
+                                            </label> 
+                                            <label class="me-5">
+                                                <a href="#" class="my-text-hover">
+                                                    4. consectetur adipisicing explicabo?
+                                                </a>
+                                            </label> 
+                                    </marquee>
                                 </div>
                             </div>
                         </div>
@@ -463,9 +482,9 @@
     </section>
 
     <footer class="mt-3">
-        <div class="footer-wrap">
-            <div class="second_class">
-                <div class="container">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="second_class">
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="d-flex align-items-center footer-logo">
@@ -513,15 +532,15 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="copyright">
-                    <div class="container">
-                        <p>Copyright 2021 BLK Gorontalo. All Rights Reserved.</p>
-                    </div>
+        </div>
+        
+        <div class="copyright pt-3">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <p>Copyright 2021 BLK Gorontalo. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-
     </footer>
 
     <a id="backToTop" class="btn my-btn-transparent text-white"><i class="fas fa-chevron-up"></i></a>
