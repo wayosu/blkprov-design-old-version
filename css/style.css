@@ -145,6 +145,10 @@ body {
     line-height:50px;
 }
 
+.my-img-top-card {
+    height: 600px;
+}
+
 /* Importan Class */
 
 .nav-item {
@@ -222,6 +226,9 @@ body {
     .my-video {
         height: 300px;
     }  
+    .my-img-top-card {
+        height: 400px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -260,6 +267,9 @@ body {
     .my-video {
         height: 200px;
     }  
+    .my-img-top-card {
+        height: 200px;
+    }
 }
 
 /*
