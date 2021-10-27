@@ -72,6 +72,11 @@ body {
     font-weight: 700;
 }
 
+.my-title {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
 .my-small-sm {
     font-size: 0.65rem;
 }
@@ -132,6 +137,12 @@ body {
 .my-video {
     width: 100%;
     height: 500px;
+}
+
+.my-breadcrumbs{
+    height: 100px;
+    text-align:center;
+    line-height:50px;
 }
 
 /* Importan Class */
