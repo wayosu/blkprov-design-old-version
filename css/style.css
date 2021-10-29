@@ -24,6 +24,10 @@ body {
     color: var(--color1);
 }
 
+.my-text-secondary {
+    color: var(--color2);
+}
+
 .my-text-hover {
     font-size: 0.8rem;
     color: #000;
