@@ -217,6 +217,31 @@ body {
     color: #fff;
 }
 
+.form-inputs {
+    position: relative;
+}
+
+.form-inputs .form-control {
+    height: 45px;
+    font-size: 0.8rem;
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #294b66;
+}
+
+.form-inputs .form-control::placeholder {
+    font-size: 0.8rem;
+}
+
+.form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: var(--color2);
+}
+
 @media (max-width: 768px) {
     .my-pengumuman {
         height: 40px;
@@ -347,11 +372,6 @@ body {
       font-style: italic;
   }
   
-  .footer-wrap p a:hover {
-      text-decoration: none;
-      color: #ff7800;
-  }
-  
   .footer-links li a {
       font-size: 13px;
       line-height: 30px;
@@ -375,14 +395,6 @@ body {
       line-height: 30px;
   }
   
-  .address:before {
-      content: "\f277";
-      font-family: 'FontAwesome';
-      position: absolute;
-      top: 0;
-      left: 0;
-  }
-  
   .info a {
    
       color: #b3b3b3;
@@ -391,20 +403,12 @@ body {
       font-weight: normal;
   }
   
-  .fa-phone:before {
-      content: "\f095";
-  }
-  
   .info a {
   
       color: #b3b3b3;
       font-size: 14px;
       line-height: 30px;
       font-weight: normal;
-  }
-  
-  .fa-fax:before {
-      content: "\f1ac";
   }
   
   .copyright {
