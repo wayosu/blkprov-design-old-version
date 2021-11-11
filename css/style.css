@@ -2,13 +2,14 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-image: url('../img/cream_pixels.png');
    overflow-x: hidden;
 }
 
 :root {
-    --color1: #20415c;
+    --color1: #111111;
     --color2: #797979;
+    --color3: #009688;
+    --color4: #6f42c1;
 }
 
 /* My Class */
@@ -17,15 +18,23 @@ body {
 }
 
 .my-bg-primary {
-    background: var(--color1);
+    background: var(--color4);
+}
+
+.my-bg-teal {
+    background: var(--color3);
 }
 
 .my-text-primary {
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .my-text-secondary {
     color: var(--color2);
+}
+
+.my-text-purple {
+    color: var(--color5);
 }
 
 .my-text-hover {
@@ -38,8 +47,20 @@ body {
     color: #3374a8;
 }
 
+.my-bg-navbar {
+    background: var(--color4);
+}
+
 .my-border-bottom-primary {
-    border-bottom: 10px solid var(--color1);
+    border-bottom: 6px solid var(--color4);
+}
+
+.my-border-bottom-purple {
+    border-bottom: 2px solid var(--color4);
+}
+
+.my-border-bottom-teal {
+    border-bottom: 2px solid var(--color3);
 }
 
 .my-dropmenu {
@@ -73,7 +94,16 @@ body {
 
 .my-title-sm {
     font-size: 0.8rem;
-    font-weight: 700;
+    font-weight: 600;
+}
+
+.my-title-md {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.my-paragraf {
+    font-size: 0.8rem;
 }
 
 .my-title {
@@ -85,9 +115,20 @@ body {
     font-size: 0.65rem;
 }
 
+.my-link-sm {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.my-link-sm:hover {
+    text-decoration: underline;
+    color: var(--color4);
+}
+
 .my-img-in-card {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 120px;
     object-fit: cover;
     object-position: center;
 }
@@ -96,8 +137,8 @@ body {
     padding: 8px 0 5px 0;
 }
 
-.my-link-hover:hover .my-bg-hover {
-    background: #aaaaaa2c;
+.my-link-hover:hover h4 {
+    color: var(--color4);
 }
 
 .my-sosmed-icon {
@@ -118,7 +159,7 @@ body {
 }
 
 .my-btn-transparent:hover {
-    background: rgb(32, 65, 92);
+    background: rgb(0, 150, 136);
     box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
     0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -165,11 +206,11 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--color1) !important;
+    color: var(--color4) !important;
 }
 
 .active {
-    color: var(--color1) !important;
+    color: var(--color4) !important;
 }
 
 .dropdown-item {
@@ -320,6 +361,16 @@ body {
     .my-img-top-card {
         height: 200px;
     }
+    .my-img-in-card {
+        width: 100px;
+        height: 100px;
+    }
+    .my-title-md {
+        font-size: 0.8rem;
+    }
+    .my-title-xl {
+        font-size: 1rem;
+    }
 }
 
 /*
@@ -430,7 +481,7 @@ body {
       
   }
   footer{
-      background: #294b66;
+      background: var(--color4);
   }
   
   footer .newsletter input[type="text"] {
