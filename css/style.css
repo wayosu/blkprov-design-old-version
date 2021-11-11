@@ -14,7 +14,7 @@ body {
 
 /* My Class */
 #konten {
-    margin-top: 95px;
+    margin-top: 88px;
 }
 
 .my-bg-primary {
@@ -320,6 +320,9 @@ body {
     .my-img-top-card {
         height: 400px;
     }
+    #konten {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -370,6 +373,9 @@ body {
     }
     .my-title-xl {
         font-size: 1rem;
+    }
+    #konten {
+        margin-top: 78px;
     }
 }
 
