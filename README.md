@@ -1,3 +1,3 @@
-# BLK Provinsi Gorontalo - Web Design
+# BLK Provinsi Gorontalo - Old Design
 
 ![](preview.png)
